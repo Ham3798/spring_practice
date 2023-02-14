@@ -8,11 +8,11 @@
 		<version>3.0.2</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>prg.prgrms</groupId>
-	<artifactId>kdt-spring-demo</artifactId>
+	<groupId>com.prgms</groupId>
+	<artifactId>jpa_practice</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>kdt-spring-demo</name>
-	<description>Demo project for Spring Boot</description>
+	<name>jpa_practice</name>
+	<description>jpa_practice</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
@@ -21,22 +21,17 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter</artifactId>
 		</dependency>
+
 		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-jdbc</artifactId>
+			<groupId>org.mybatis.spring.boot</groupId>
+			<artifactId>mybatis-spring-boot-starter</artifactId>
+			<version>2.2.0</version>
 		</dependency>
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
-		</dependency>
-
-		<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
-		<dependency>
-			<groupId>mysql</groupId>
-			<artifactId>mysql-connector-java</artifactId>
-			<version>8.0.32</version>
 		</dependency>
 	</dependencies>
 
